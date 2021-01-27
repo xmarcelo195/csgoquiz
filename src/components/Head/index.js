@@ -12,13 +12,13 @@ function IndexPage() {
             <meta property="og:url" content="https://csgoquiz.vercel.app/" key="url"/>
             <meta property="og:title" content="Counter Strike Global Offensive  - Quiz" key="ogtitle"/>
             <meta property="og:description" content="Teste os seus conhecimentos sobre CSGO e vamos ver o quanto você sabe sobre o jogo" key="ogdesc"/>
-            <meta property="og:image" content="blob:https://vercel.com/a78d2d4b-c628-48d7-9e82-ac03fd5c4d5d" key="ogimg"/>
+            <meta property="og:image" content="https://raw.githubusercontent.com/xmarcelo195/csgoquiz/main/public/og_img.png" key="ogimg"/>
   
             <meta property="twitter:card" content="summary_large_image" key="twcard"/>
             <meta property="twitter:url" content="https://csgoquiz.vercel.app/" key="twurl"/>
             <meta property="twitter:title" content="Counter Strike Global Offensive  - Quiz" key="twtittle"/>
             <meta property="twitter:description" content="Teste os seus conhecimentos sobre CSGO e vamos ver o quanto você sabe sobre o jogo" key="twdesc"/>
-            <meta property="twitter:image" content="blob:https://vercel.com/a78d2d4b-c628-48d7-9e82-ac03fd5c4d5d" key="twimg"/>
+            <meta property="twitter:image" content="https://raw.githubusercontent.com/xmarcelo195/csgoquiz/main/public/og_img.png" key="twimg"/>
   
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
