@@ -16,9 +16,33 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Questão2",
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT4i/giphy.gif",
+        "title": "Pergunta2",
         "description": "Descrição 2",
+        "answer": 2,
+        "alternatives": [
+          "alternativa1",
+          "alternativa2",
+          "alternativa3",
+          "alternativa4"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT5i/giphy.gif",
+        "title": "Pergunta3",
+        "description": "Descrição 3",
+        "answer": 2,
+        "alternatives": [
+          "alternativa1",
+          "alternativa2",
+          "alternativa3",
+          "alternativa4"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Questão 4",
+        "description": "Descrição 4",
         "answer": 0,
         "alternatives": [
            "alternativa1",
