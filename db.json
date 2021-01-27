@@ -1,70 +1,132 @@
 {
-    "bg": "https://i.ibb.co/Th7Q4kC/background-gradient.png",
-    "title": "CSGO Quiz",
-    "description": "Teste os seus conhecimentos sobre CSGO e vamos ver o quanto você sabe sobre o jogo",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Pergunta1",
-        "description": "Descrição 1",
-        "answer": 2,
-        "alternatives": [
-          "alternativa1",
-          "alternativa2",
-          "alternativa3",
-          "alternativa4"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT4i/giphy.gif",
-        "title": "Pergunta2",
-        "description": "Descrição 2",
-        "answer": 2,
-        "alternatives": [
-          "alternativa1",
-          "alternativa2",
-          "alternativa3",
-          "alternativa4"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT5i/giphy.gif",
-        "title": "Pergunta3",
-        "description": "Descrição 3",
-        "answer": 2,
-        "alternatives": [
-          "alternativa1",
-          "alternativa2",
-          "alternativa3",
-          "alternativa4"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Questão 4",
-        "description": "Descrição 4",
-        "answer": 0,
-        "alternatives": [
-           "alternativa1",
-           "alternativa2",
-           "alternativa3",
-           "alternativa4"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#466490",
-        "secondary": "#C8D2EB",
-        "mainBg": "#212126",
-        "colorBg": "#020610",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://i.ibb.co/Th7Q4kC/background-gradient.png",
+  "title": "CSGO Quiz",
+  "description": "Teste os seus conhecimentos sobre CSGO e vamos ver o quanto você sabe sobre o jogo",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Qual desses mapas Não faz parte do cenário competitivo de CS:GO?",
+      "description": "Descrição 1",
+      "answer": 2,
+      "alternatives": [
+        "Mirage",
+        "Vertigo",
+        "Cobblestone",
+        "Overpass"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quem foi o melhor jogador do mundo em 2014?",
+      "description": "Descrição 1",
+      "answer": 2,
+      "alternatives": [
+        "fnX",
+        "olofmeister",
+        "f0rest",
+        "GeT_RighT",
+        "s1mple"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quanto tempo leva para plantar a C4",
+      "description": "Resposta em segundos",
+      "answer": 2,
+      "alternatives": [
+        "2.9",
+        "3.0",
+        "3.2",
+        "3.5",
+        "4.3"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quanto tempo aproximadamente dura uma granada de fumaça",
+      "description": "Também conhecida como Smoke (resposta em segundos)",
+      "answer": 3,
+      "alternatives": [
+        "4",
+        "6",
+        "11",
+        "15"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quanto custa um defuse kit?",
+      "description": "",
+      "answer": 2,
+      "alternatives": [
+        "$200",
+        "$300",
+        "$400",
+        "$500"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Quanto custa uma granada HE?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "$50",
+        "$200",
+        "$250",
+        "$300"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Qual o time de Gabriel 'Fallen' Toledo atualmente?",
+      "description": "",
+      "answer": 1,
+      "alternatives": [
+        "MiBR",
+        "Liquid",
+        "Navi",
+        "FaZe Clan"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Qual o jogador com maior numero de MVPs em campeonatos?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "KennyS",
+        "GeT_RiGhT",
+        "coldzera",
+        "dev1ce"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+      "title": "Qual o time com mais vitórias em Major de CS:GO?",
+      "description": "",
+      "answer": 3,
+      "alternatives": [
+        "Astralis",
+        "Fnatic",
+        "Virtus.pro",
+        "SK Gaming"
+      ]
     }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#466490",
+      "secondary": "#C8D2EB",
+      "mainBg": "#212126",
+      "colorBg": "#020610",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
