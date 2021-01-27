@@ -1,0 +1,46 @@
+{
+    "bg": "https://i.ibb.co/Th7Q4kC/background-gradient.png",
+    "title": "CSGO Quiz",
+    "description": "Teste os seus conhecimentos sobre CSGO e vamos ver o quanto você sabe sobre o jogo",
+    "questions": [
+      {
+        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "title": "Pergunta1",
+        "description": "Descrição 1",
+        "answer": 2,
+        "alternatives": [
+          "alternativa1",
+          "alternativa2",
+          "alternativa3",
+          "alternativa4"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "title": "Questão2",
+        "description": "Descrição 2",
+        "answer": 0,
+        "alternatives": [
+           "alternativa1",
+           "alternativa2",
+           "alternativa3",
+           "alternativa4"
+        ]
+      }
+    ],
+    "external": [
+      ""
+    ],
+    "theme": {
+      "colors": {
+        "primary": "#466490",
+        "secondary": "#C8D2EB",
+        "mainBg": "#212126",
+        "colorBg": "#020610",
+        "contrastText": "#FFFFFF",
+        "wrong": "#FF5722",
+        "success": "#4CAF50"
+      },
+      "borderRadius": "4px"
+    }
+  }
