@@ -23,7 +23,7 @@ const SVGWrapper = styled.svg`
   }
 
   @media (max-width:500px){
-    fill: ${({ theme }) => theme.colors.colorBg};
+    fill: ${({ theme }) => theme.colors.primary};
 
     &:hover .octo-arm{
       animation:none
@@ -47,4 +47,4 @@ export default function GitHubCorner({ projectUrl }) {
       </a>
     </Wrapper>
   );
-} 
+}

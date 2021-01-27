@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const QuizContainer = styled.div`
   width: 100%;
@@ -11,4 +11,4 @@ const QuizContainer = styled.div`
   }
 `;
 
-export default QuizContainer
+export default QuizContainer;
