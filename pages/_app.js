@@ -1,16 +1,19 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import styled from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #232323;
   }
 `
 
 const theme = {
   colors: {
-    primary: '#0070f3',
+    primary: '#466490',
+    secondary: '#C8D2EB',
   },
 }
 
