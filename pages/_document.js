@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
             {sheet.getStyleElement()}
           </>
         ),
-        IndexPage,
       }
     } finally {
       sheet.seal()

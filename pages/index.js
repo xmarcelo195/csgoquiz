@@ -5,7 +5,7 @@ import Footer from '../src/components/Footer/'
 import GitHubCorner from '../src/components/GitHubCorner/'
 import QuizBackground from '../src/components/QuizBackground/'
 import QuizLogo from '../src/components/QuizLogo/'
-
+import IndexPage from '../src/components/Head'
 
 
 export const QuizContainer = styled.div`
@@ -21,27 +21,30 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
-  <QuizBackground backgroundImage={db.bg}>
-    <QuizContainer>
-      <QuizLogo/>
-      <Widget>
-        <Widget.Header>
-          <h1>Counter Strike Global Offensive</h1>
-        </Widget.Header>
-        <Widget.Content>
-        <p>lorem ipsum dolor sit amet...</p>
-        </Widget.Content>
-      </Widget>
-
-      <Widget>
-        <Widget.Content>
-          <h1>Quizes da Galera</h1>
+    <>
+      <IndexPage />
+      <QuizBackground backgroundImage={db.bg}>
+      <QuizContainer>
+        <QuizLogo/>
+        <Widget>
+          <Widget.Header>
+            <h1>Counter Strike Global Offensive</h1>
+          </Widget.Header>
+          <Widget.Content>
           <p>lorem ipsum dolor sit amet...</p>
-        </Widget.Content>
-      </Widget>
-      <Footer/>
-      <GitHubCorner projectUrl="https://github.com/xmarcelo195/csgoquiz"/>
-    </QuizContainer>
-  </QuizBackground>
+          </Widget.Content>
+        </Widget>
+
+        <Widget>
+          <Widget.Content>
+            <h1>Quizes da Galera</h1>
+            <p>lorem ipsum dolor sit amet...</p>
+          </Widget.Content>
+        </Widget>
+        <Footer/>
+        <GitHubCorner projectUrl="https://github.com/xmarcelo195/csgoquiz"/>
+      </QuizContainer>
+    </QuizBackground>
+  </>
   );
 }
